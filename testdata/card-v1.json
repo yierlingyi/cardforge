@@ -1,0 +1,30 @@
+{
+  "name": "测试角色",
+  "description": "用于格式测试的角色。包含特殊字符：<>&\"'`~!@#$%^&*()_+-=[]{}|;:,.<>/?\n第二行。",
+  "personality": "冷静",
+  "scenario": "测试场景",
+  "first_mes": "你好。",
+  "mes_example": "<START>\n{{user}}: hi\n{{char}}: hello",
+  "creator_notes": "测试用",
+  "system_prompt": "",
+  "post_history_instructions": "",
+  "alternate_greetings": [
+    "替代一",
+    "替代二"
+  ],
+  "tags": [
+    "测试",
+    "V2"
+  ],
+  "creator": "CardForge",
+  "character_version": "0.0.1",
+  "extensions": {
+    "foo": {
+      "bar": [
+        1,
+        2,
+        3
+      ]
+    }
+  }
+}

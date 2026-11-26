@@ -1,0 +1,55 @@
+[
+  {
+    "id": "test-1",
+    "scriptName": "把 <status> 转成 HTML",
+    "findRegex": "/<status>([\\s\\S]*?)<\\/status>/g",
+    "replaceString": "<div class=\"status\">$1</div>",
+    "placement": [
+      1,
+      2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": false,
+    "runOnEdit": false,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null,
+    "trimStrings": []
+  },
+  {
+    "id": "test-2",
+    "scriptName": "压缩空行",
+    "findRegex": "/\\n{3,}/g",
+    "replaceString": "\n\n",
+    "placement": [
+      1,
+      3
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": false,
+    "runOnEdit": false,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null,
+    "trimStrings": []
+  },
+  {
+    "id": "test-3",
+    "scriptName": "高风险：嵌套量词",
+    "findRegex": "/(a+)+$/g",
+    "replaceString": "x",
+    "placement": [
+      3
+    ],
+    "disabled": true,
+    "markdownOnly": false,
+    "promptOnly": false,
+    "runOnEdit": false,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null,
+    "trimStrings": []
+  }
+]

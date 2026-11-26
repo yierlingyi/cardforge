@@ -1,0 +1,8 @@
+# 统一换行：源码/文档 LF，Windows 批处理 CRLF，图片按二进制处理
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh text eol=lf
+*.png binary
+*.jpg binary
+*.ico binary

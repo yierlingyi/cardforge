@@ -1,0 +1,42 @@
+{
+  "name": "cardforge-tavern-ide",
+  "private": true,
+  "version": "1.0.0",
+  "description": "CardForge — SillyTavern 全功能人物卡 IDE（本地运行、离线优先）",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/launch.mjs",
+    "dev": "vite --port 5178 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 5179 --strictPort",
+    "typecheck": "tsc --noEmit --pretty false",
+    "gen:testdata": "node scripts/gen-testdata.mjs",
+    "test:core": "tsx scripts/selftest.mjs",
+    "test:ui": "node scripts/ui-check.mjs",
+    "test:perf": "node scripts/perf-check.mjs"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.7.1",
+    "@codemirror/lang-javascript": "^6.2.2",
+    "@codemirror/lang-json": "^6.0.1",
+    "@codemirror/language": "^6.10.8",
+    "@codemirror/search": "^6.5.8",
+    "@codemirror/state": "^6.5.0",
+    "@codemirror/view": "^6.35.3",
+    "diff": "^7.0.0",
+    "immer": "^10.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "playwright": "^1.65.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

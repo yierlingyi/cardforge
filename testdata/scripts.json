@@ -1,0 +1,36 @@
+[
+  {
+    "id": "script-1",
+    "name": "MVU Schema 示例",
+    "content": "const schema = z.object({\n  角色: z.object({\n    姓名: z.string().default('测试'),\n    等级: z.number().int().min(1).max(99).default(1),\n    背包: z.array(z.object({ 名称: z.string(), 数量: z.number().int().min(1) })).default([]),\n  }),\n});\nregisterVariableSchema(schema);\n",
+    "info": "测试脚本，不会被编辑器执行",
+    "enabled": true,
+    "button": {
+      "enabled": true,
+      "buttons": [
+        {
+          "name": "测试按钮",
+          "visible": true
+        }
+      ]
+    },
+    "data": {
+      "note": "arbitrary"
+    },
+    "export_with": {
+      "stat_data": true
+    }
+  },
+  {
+    "id": "script-2",
+    "name": "语法错误示例",
+    "content": "function broken( {\n  return 1;\n}\n",
+    "info": "",
+    "enabled": true,
+    "button": {
+      "enabled": false,
+      "buttons": []
+    },
+    "data": {}
+  }
+]

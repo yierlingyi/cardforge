@@ -1,0 +1,160 @@
+{
+  "spec": "chara_card_v2",
+  "spec_version": "2.0",
+  "data": {
+    "name": "测试角色",
+    "description": "用于格式测试的角色。包含特殊字符：<>&\"'`~!@#$%^&*()_+-=[]{}|;:,.<>/?\n第二行。",
+    "personality": "冷静",
+    "scenario": "测试场景",
+    "first_mes": "你好。",
+    "mes_example": "<START>\n{{user}}: hi\n{{char}}: hello",
+    "creator_notes": "测试用",
+    "system_prompt": "",
+    "post_history_instructions": "",
+    "alternate_greetings": [
+      "替代一",
+      "替代二"
+    ],
+    "tags": [
+      "测试",
+      "V2"
+    ],
+    "creator": "CardForge",
+    "character_version": "0.0.1",
+    "extensions": {
+      "foo": {
+        "bar": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "character_book": {
+      "name": "测试内嵌世界书",
+      "description": "",
+      "scan_depth": 4,
+      "token_budget": 1024,
+      "recursive_scanning": false,
+      "extensions": {},
+      "entries": [
+        {
+          "uid": 0,
+          "key": [
+            "观测站0",
+            "极光_0"
+          ],
+          "keysecondary": [
+            "次键_0"
+          ],
+          "comment": "地点：观测站 0",
+          "content": "这是第 0 条世界书条目，标签为「地点」。\n与「观测站」和「极光」相关。\n补充说明：内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。极光过载时仪器读数会短时飙升，需要在 20 分钟内完成采样记录。",
+          "constant": true,
+          "vectorized": false,
+          "selective": true,
+          "selectiveLogic": 0,
+          "addMemo": true,
+          "order": 100,
+          "position": 0,
+          "disable": true,
+          "excludeRecursion": true,
+          "preventRecursion": false,
+          "delayUntilRecursion": false,
+          "probability": 40,
+          "useProbability": true,
+          "depth": 4,
+          "group": "组0",
+          "groupOverride": false,
+          "groupWeight": 100,
+          "scanDepth": null,
+          "caseSensitive": null,
+          "matchWholeWords": null,
+          "useGroupScoring": null,
+          "automationId": "",
+          "role": 0,
+          "sticky": 0,
+          "cooldown": 0,
+          "delay": 0,
+          "displayIndex": 0
+        },
+        {
+          "uid": 1,
+          "key": [
+            "极光1",
+            "样本_1"
+          ],
+          "keysecondary": [],
+          "comment": "人物：极光 1",
+          "content": "这是第 1 条世界书条目，标签为「人物」。\n与「极光」和「样本」相关。",
+          "constant": false,
+          "vectorized": false,
+          "selective": true,
+          "selectiveLogic": 1,
+          "addMemo": true,
+          "order": 101,
+          "position": 1,
+          "disable": false,
+          "excludeRecursion": false,
+          "preventRecursion": false,
+          "delayUntilRecursion": false,
+          "probability": 100,
+          "useProbability": true,
+          "depth": 4,
+          "group": "",
+          "groupOverride": false,
+          "groupWeight": 100,
+          "scanDepth": null,
+          "caseSensitive": null,
+          "matchWholeWords": null,
+          "useGroupScoring": null,
+          "automationId": "",
+          "role": 0,
+          "sticky": 0,
+          "cooldown": 0,
+          "delay": 0,
+          "displayIndex": 1
+        },
+        {
+          "uid": 2,
+          "key": [
+            "暴雪2",
+            "补给_2"
+          ],
+          "keysecondary": [],
+          "comment": "事件：暴雪 2",
+          "content": "这是第 2 条世界书条目，标签为「事件」。\n与「暴雪」和「补给」相关。",
+          "constant": false,
+          "vectorized": false,
+          "selective": true,
+          "selectiveLogic": 2,
+          "addMemo": true,
+          "order": 102,
+          "position": 2,
+          "disable": false,
+          "excludeRecursion": false,
+          "preventRecursion": false,
+          "delayUntilRecursion": false,
+          "probability": 100,
+          "useProbability": true,
+          "depth": 4,
+          "group": "",
+          "groupOverride": false,
+          "groupWeight": 100,
+          "scanDepth": null,
+          "caseSensitive": null,
+          "matchWholeWords": null,
+          "useGroupScoring": null,
+          "automationId": "",
+          "role": 0,
+          "sticky": 0,
+          "cooldown": 0,
+          "delay": 0,
+          "displayIndex": 2
+        }
+      ]
+    }
+  },
+  "third_party_root": {
+    "note": "未知根字段"
+  }
+}

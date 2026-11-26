@@ -1,0 +1,25 @@
+node_modules/
+dist/
+tmp/
+*.log
+
+# 生成的大型测试数据（体积大，可用 npm run gen:testdata 重建）
+testdata/worldbook-10000.json
+testdata/worldbook-50000.json
+testdata/worldbook-100000.json
+
+# 测试产物（docs/test-report-generated.md 作为测试证据保留入库）
+test-results/
+playwright-report/
+
+# 本工具链的本地状态（非项目内容）
+.workbuddy/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.local
+*.tsbuildinfo
