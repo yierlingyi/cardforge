@@ -5,6 +5,11 @@
 
 > 纯前端、无服务器、无网络请求。数据保存在浏览器 IndexedDB。
 
+[![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/license-PolyForm%20Noncommercial%201.0.0-f97316)](LICENSE)
+[![Node](https://img.shields.io/badge/node-%E2%89%A518-3c873a)](https://nodejs.org/)
+![React](https://img.shields.io/badge/react-18-61dafb)
+![TypeScript](https://img.shields.io/badge/typescript-5.7-3178c6)
+
 ![项目首页](docs/screenshots/home.png)
 
 ---
