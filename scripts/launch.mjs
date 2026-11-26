@@ -111,8 +111,11 @@ function probe(url, timeout = 900) {
 }
 
 if (await probe(URL)) {
-  console.log(`▸ ${URL} 已经在运行，直接打开浏览器`);
-  if (!NO_OPEN) openBrowser(URL);
+  console.log(`▸ ${URL} 已经在运行，无需重复启动`);
+  if (!NO_OPEN) {
+    console.log('  正在打开浏览器…');
+    openBrowser(URL);
+  }
   process.exit(0);
 }
 
